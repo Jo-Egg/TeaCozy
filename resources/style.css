@@ -20,6 +20,10 @@ header {
   z-index: 5;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 nav {
   text-align: right;
 }
@@ -43,4 +47,22 @@ nav span {
 .mission {
   width: 1200px;
   opacity: 1;
+}
+
+.teas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  margin: 60px;
+}
+
+.teaheading {
+  width: 1000px;
+}
+
+.images {
+  height: 200px;
+  width: 300px;
+  padding: 0 10px;
 }
