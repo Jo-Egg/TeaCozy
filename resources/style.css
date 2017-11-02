@@ -7,6 +7,11 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+/* Header Section */
 
 header {
   height: 69px;
@@ -20,25 +25,27 @@ header {
   z-index: 5;
 }
 
-h2 {
-  font-size: 30px;
-}
-
-nav {
-  text-align: right;
-}
-
 nav span {
   text-decoration: underline;
   padding: 0 10px;
 }
+
+ /*Footer Section */
+
+footer {
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+/* Mission Section */
 
 .main {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
   display: inline-flex;
-  /*padding-top: 69px;*/
   justify-content: center;
   align-items: center;
   margin-top: 69px;
@@ -49,34 +56,27 @@ nav span {
   opacity: 1;
 }
 
-.teas {
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 1000px;
-  justify-content: center;
-  margin: 60px;
-}
+ /*Teas section */
 
-.teaheading {
-  width: 1000px;
-}
+ .images {
+   height: 200px;
+   width: 300px;
+   padding: 0 10px;
+ }
 
-.images {
-  height: 200px;
-  width: 300px;
-  padding: 0 10px;
-}
+ .teaheading {
+   width: 1000px;
+ }
 
-.locations {
-  height: 500px;
-  width: 1200px;
-  display: inline-flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 70px;
-}
+ .teas {
+   display: inline-flex;
+   flex-wrap: wrap;
+   width: 1000px;
+   justify-content: center;
+   margin: 60px;
+ }
+
+  /*Locations Section */
 
 .addresses {
   height: 300px;
@@ -91,4 +91,21 @@ nav span {
 .locationheading {
   width: 1200px;
   background: transparent;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+ /*Contact Section */
+ 
+.contact {
+  height: 200px;
 }
